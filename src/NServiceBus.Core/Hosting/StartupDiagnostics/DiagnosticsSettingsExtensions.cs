@@ -8,7 +8,7 @@
     /// <summary>
     /// Provides an API to add startup diagnostics.
     /// </summary>
-    public static class DiagnosticSettingsExtensions
+    public static class DiagnosticsSettingsExtensions
     {
         /// <summary>
         /// Adds a section to the startup diagnostics.

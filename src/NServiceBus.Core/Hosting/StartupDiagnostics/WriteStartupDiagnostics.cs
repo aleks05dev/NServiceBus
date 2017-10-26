@@ -53,7 +53,7 @@
             {
                 if (isCustomWriter)
                 {
-                    logger.Error($"Failed to write startup diagnostics using the custom delegate defined by {nameof(DiagnosticSettingsExtensions.CustomDiagnosticsWriter)}", exception);
+                    logger.Error($"Failed to write startup diagnostics using the custom delegate defined by {nameof(DiagnosticsSettingsExtensions.CustomDiagnosticsWriter)}", exception);
                     return;
                 }
                 logger.Error("Failed to write startup diagnostics", exception);
